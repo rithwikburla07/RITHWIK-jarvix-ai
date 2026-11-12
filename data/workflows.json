@@ -1,0 +1,50 @@
+[
+  {"name": "Work", "steps": [
+    {"type": "show_tasks", "range": "today"},
+    {"type": "open_app", "app": "Edge"},
+    {"type": "notify", "text": "Work mode started."}]},
+  {"name": "Focus", "steps": [
+    {"type": "set_volume", "level": 20},
+    {"type": "start_timer", "minutes": 25, "label": "Focus block finished"},
+    {"type": "notify", "text": "Focus mode on for 25 minutes."}]},
+  {"name": "Study", "steps": [
+    {"type": "start_timer", "minutes": 25, "label": "Study block finished"},
+    {"type": "open_study_page"},
+    {"type": "open_folder", "folder": "notes"},
+    {"type": "notify", "text": "Study mode started: 25-minute focus timer running."}]},
+  {"name": "Research", "steps": [
+    {"type": "open_app", "app": "Edge"},
+    {"type": "open_folder", "folder": "documents"},
+    {"type": "notify", "text": "Research workspace ready."}]},
+  {"name": "Planning", "steps": [
+    {"type": "show_tasks", "range": "week"},
+    {"type": "open_folder", "folder": "documents"},
+    {"type": "notify", "text": "Planning view ready."}]},
+  {"name": "Creative", "steps": [
+    {"type": "open_app", "app": "Paint"},
+    {"type": "set_volume", "level": 40},
+    {"type": "notify", "text": "Creative mode ready."}]},
+  {"name": "Morning", "steps": [
+    {"type": "show_tasks", "range": "today"},
+    {"type": "open_folder", "folder": "downloads"},
+    {"type": "speak", "text": "Good morning. Here is your day."}]},
+  {"name": "Email", "steps": [
+    {"type": "open_url", "url": "https://mail.google.com"},
+    {"type": "notify", "text": "Gmail opened in your browser."}]},
+  {"name": "Meeting", "steps": [
+    {"type": "set_volume", "level": 50},
+    {"type": "show_tasks", "range": "today"},
+    {"type": "notify", "text": "Meeting mode ready."}]},
+  {"name": "Coding", "steps": [
+    {"type": "open_app", "app": "VS Code"},
+    {"type": "open_app", "app": "PowerShell"},
+    {"type": "notify", "text": "Coding setup started."}]},
+  {"name": "Music", "steps": [
+    {"type": "set_volume", "level": 40},
+    {"type": "play_music", "query": "lo-fi"},
+    {"type": "notify", "text": "Music workflow ready."}]},
+  {"name": "Finance", "steps": [
+    {"type": "open_url", "url": "https://finance.yahoo.com"},
+    {"type": "open_folder", "folder": "documents"},
+    {"type": "notify", "text": "Finance workspace ready."}]}
+]

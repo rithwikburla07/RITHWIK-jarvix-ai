@@ -1,0 +1,82 @@
+{
+  "review": "Machine-translated, needs native review",
+  "ui": {
+    "Home": "Ana sayfa",
+    "Tasks": "Görevler",
+    "Workflows": "İş akışları",
+    "Apps": "Uygulamalar",
+    "WhatsApp": "WhatsApp",
+    "Gmail": "Gmail",
+    "Android": "Android",
+    "Music": "Müzik",
+    "Battle Mode": "Savaş modu",
+    "Settings": "Ayarlar",
+    "Diagnostics": "Tanılama",
+    "History": "Geçmiş",
+    "About": "Hakkında",
+    "Send": "Gönder",
+    "Pause Jarvix": "Jarvix'i duraklat",
+    "Resume Jarvix": "Jarvix'i sürdür",
+    "Push to talk": "Konuşmak için bas",
+    "Command log": "Komut günlüğü",
+    "Today's tasks": "Bugünün görevleri",
+    "Upcoming reminders": "Yaklaşan hatırlatmalar",
+    "Ready": "Hazır",
+    "Working...": "Çalışıyor…",
+    "Done": "Tamamlandı",
+    "Error": "Hata",
+    "Search": "Ara",
+    "Open": "Aç",
+    "Save": "Kaydet",
+    "Exit Jarvix": "Jarvix'ten çık",
+    "Refresh": "Yenile",
+    "Clear command history": "Geçmişi temizle",
+    "Help": "Yardım",
+    "Language": "Dil",
+    "Notifications": "Bildirimler",
+    "Today": "Bugün",
+    "Tomorrow": "Yarın",
+    "No upcoming reminders": "Yaklaşan hatırlatma yok",
+    "No tasks due today": "Bugün görev yok",
+    "Microphone off": "Mikrofon kapalı",
+    "Stop workflow": "İş akışını durdur"
+  },
+  "commands": {
+    "bugünün görevlerini göster": "show my tasks for today",
+    "pil durumu": "what's my battery",
+    "sesi kapat": "mute",
+    "sesi aç": "unmute",
+    "jarvix'i duraklat": "pause jarvix",
+    "jarvix'i sürdür": "resume jarvix",
+    "yardım": "help",
+    "jarvix'ten çık": "exit jarvix"
+  },
+  "prefixes": {
+    "aç": "open",
+    "kapat": "close",
+    "ses": "volume",
+    "hatırlat": "remind me",
+    "ara": "search for",
+    "çalıştır": "run"
+  },
+  "time_words": {
+    "yarın": "tomorrow",
+    "bugün": "today",
+    "saat": "at",
+    "dakika": "minutes",
+    "sonra": "",
+    "öğle": "noon",
+    "elli": "50"
+  },
+  "examples": [
+    "aç Notepad",
+    "ses 50",
+    "bugünün görevlerini göster",
+    "pil durumu",
+    "sesi kapat"
+  ],
+  "responses": {
+    "unknown": "Komut anlaşılamadı. «yardım» yazın.",
+    "pause.resumed": "Jarvix devam ediyor."
+  }
+}

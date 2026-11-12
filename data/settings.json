@@ -1,0 +1,17 @@
+{
+  "title": "Jarvix Personal AI",
+  "greeting": "",
+  "theme": "cyan",
+  "language": "en",
+  "show_orb": false,
+  "reduced_motion": false,
+  "close_to_tray": false,
+  "notifications": true,
+  "privacy": false,
+  "voice_provider": "off",
+  "wake_word": false,
+  "speech": false,
+  "brain_enabled": false,
+  "busy_enabled": false,
+  "search_folders": []
+}

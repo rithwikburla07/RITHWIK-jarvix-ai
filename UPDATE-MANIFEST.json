@@ -1,0 +1,373 @@
+{
+  "product": "Jarvix Personal AI",
+  "files": {
+    ".gitignore": {
+      "old": "b4d684d3f84b80afc8bf1c9881115cd0b788d2c09b9b9484682e5d9982952ad7",
+      "new": "87869835f54f01373e9c566175aa204a90a6c958d891f4cc95a5fcf678a2fda5"
+    },
+    "BUILD_STATUS.md": {
+      "old": "c45f93ab54df5101546e7ea1cdcae1986e9fbcc1fb3231f655612e451e5f6e88",
+      "new": "8717ae50eea15bbbe1195d4973f3177087d800a0846bd127d081824ac6255fcf"
+    },
+    "Jarvix.exe": {
+      "old": null,
+      "new": "997a39b02338e589503db4a28f6c3ec66b3af6eadf43cc2814b038b33d4af9dc"
+    },
+    "PROGRESS.md": {
+      "old": "07a697aadb3d45469ef25dd5549a46fac08cd6507970a4e66831867443d6a5d4",
+      "new": "e6da886f9cdbcf91cc3ae1839ddf979f0c422e62206b75a16c16f5b4eb0eb038"
+    },
+    "PROJECT_TREE.txt": {
+      "old": "aa9e2b08131b4961ddb55faf49c1981049ce91f06035835cf81aed57bb4aa057",
+      "new": "d61136819598a87bd1137f387dd85ce5bd79e7ae63059b96e1d0904e07b9ca6c"
+    },
+    "README.md": {
+      "old": "36e4821fec39542b772c3c642e12783e5f1b783f80f2b7b905d1ae7fe5eb8d6c",
+      "new": "597ab3747d63e9ad023ca4dd724539e0b0cb507992381ec54643f58cc37dbd29"
+    },
+    "SETUP_MANUAL.md": {
+      "old": "fc2d2c64440784eac1fb32a01a9e4602b1a5c086061baf361952f913e189180c",
+      "new": "d96c6242907137c08d9e70b73aaf4e4438b8ede640fb2391645c05d1f8e046f6"
+    },
+    "android/app/build.gradle.kts": {
+      "old": null,
+      "new": "88c0e7b779be28d2bae543c6252b5c382a7372ee8f47e0b6fb6e4d05c6ac70b8"
+    },
+    "android/app/src/main/AndroidManifest.xml": {
+      "old": null,
+      "new": "3fed1a44c38ff728cfeeec078a90bddb988be185ccdbf03de876460c8b32debb"
+    },
+    "android/app/src/main/java/ai/jarvix/companion/Link.kt": {
+      "old": null,
+      "new": "b8bf1c2fae56b52f88ba3ac3bbd3f07f58a72293fbd7c95cd21793b5fadfb2f5"
+    },
+    "android/app/src/main/java/ai/jarvix/companion/MainActivity.kt": {
+      "old": null,
+      "new": "68e1d27f522172a32970ca4823904823e5dfd487a88ef858f320664735afcf6f"
+    },
+    "android/app/src/test/java/ai/jarvix/companion/ValidationTest.kt": {
+      "old": null,
+      "new": "505b5d0369bc843ff62ae74b3de0d01787561fb6bb88cb4507e8167228b0d56b"
+    },
+    "android/build.gradle.kts": {
+      "old": null,
+      "new": "50425357e4449207a6e3098fa4f4dc66864a870859025051fc809589ddb858df"
+    },
+    "android/gradle.properties": {
+      "old": null,
+      "new": "10bbfa0b0a15f2e3fc598a87c7f944a537060d92b5fb03791e6b60e6cd226ff6"
+    },
+    "android/settings.gradle.kts": {
+      "old": null,
+      "new": "f7aba2b98d812a2e1f4d2b657cbc006853c4ea5e61f758c36dd691a4160140a0"
+    },
+    "check_requirements.ps1": {
+      "old": "773a60d02801011d9640a0c0cb39acf6edd2f27f043ec206ade0de301542c372",
+      "new": "5cac434ba9133e29a5fd178367477773b75e78649f316aa1ba0eafc9fe7311a5"
+    },
+    "data/lang/de.json": {
+      "old": null,
+      "new": "3ed81d023ceb1e8fe7007c06cf8af01e5ced68aabf27782da17b72b308042908"
+    },
+    "data/lang/en.json": {
+      "old": null,
+      "new": "eda3ec717e687f491ad1f05a1bb624202fde815ddec245fa630614fd8e6d7382"
+    },
+    "data/lang/hi.json": {
+      "old": null,
+      "new": "1105a0cac440454fa670b86b7a84eb2b79d711b911d3d7eab048d1bedab376b3"
+    },
+    "data/lang/it.json": {
+      "old": null,
+      "new": "0d9f064bc43d8d382b2bea695ab8657a99cff98d950bf1a428a1b9a65d68a65e"
+    },
+    "data/lang/pt.json": {
+      "old": null,
+      "new": "e6f67905ca265205c68b6caaf16f5de154ccf57cc170fd46ba51a73eb481e964"
+    },
+    "data/lang/ru.json": {
+      "old": null,
+      "new": "232173de0a4dd43bc58e3f48bacbaf9334a860e28843e371e0164083bc1a2017"
+    },
+    "data/lang/tr.json": {
+      "old": null,
+      "new": "77226066ca307c2a50eb71f8c734537c0022fe75acb1f3bc2522923d3413c51b"
+    },
+    "data/lang/uk.json": {
+      "old": null,
+      "new": "c9606a40b3b7da501d91a9a0ef2ce29dc1f66535f597e7256d7b7cd5a91ca8b5"
+    },
+    "data/settings.json": {
+      "old": null,
+      "new": "9f04c4a5e10be0cd25379884f177a910ddc7fe305b75adedb420876c025b5618"
+    },
+    "data/workflows.json": {
+      "old": "ffc5a6db75158fa3301ba0ea7c847e921c07fba8acf6761afbd21492ab980807",
+      "new": "8dea038cf7b9794b6fa2d96a76f5cf8104f832d52e0d94d49bdbb819c258b85a"
+    },
+    "jarvis/config/paths.py": {
+      "old": "1abe9fe0908199e3bbc8700c4b75c69e0efd2c6c17c8c1bb515f33bfe5eb14ef",
+      "new": "9fa98683793932f136c5079300d9f704f37cb51f52f4e13420c4eba3d6f70593"
+    },
+    "jarvis/config/settings.py": {
+      "old": null,
+      "new": "d4933e87aa0bd07067f96d0028e138fbb0bc86a0e777069ae438e8d7ca5094fe"
+    },
+    "jarvis/core/dialog.py": {
+      "old": "d9408445bb790a46e73ccb3572a2c330a1dd14eba9e9ef277e24f9242ab7d2ef",
+      "new": "dea489f7c5c5e8e7b1144873c94784b2c2a4a7cb6f697d78c00197eaf9d6212c"
+    },
+    "jarvis/core/engine.py": {
+      "old": "63667c69bab417c0f0fbfbfd514ec9077cb823f981d4d2c612e02865bbd6c9b3",
+      "new": "97ca6bada294abe95e4f4d09859e9efd1fcb74f12910dbe3085b5d0ed2374c1e"
+    },
+    "jarvis/core/fileplan.py": {
+      "old": "c45fc1c6d92b868eeb9df261e2c2bad7dab8099b3c1fa1100d32ae81ec9b1e70",
+      "new": "4df0556a8cf8d4948b1564c76196dfce53e0f65ba71d0d06cbe148b58b3f4816"
+    },
+    "jarvis/core/parser.py": {
+      "old": "ca455cec1b1ef1cb2c5acf252dbc4dddf089028bef4a121ea2dc86bcb7bbc7b4",
+      "new": "fadb798471b13abbd811c6cffcd064e88b2498ed2afa1e7fecda05864c87fb97"
+    },
+    "jarvis/core/redact.py": {
+      "old": "dee0b64bbe80f28fe147194fe52538a82d7b1ea74fa30a1d2bbf0ec1d9f1f636",
+      "new": "b1d549ca1d60c3d46240f47ba8fdbb1170dad2e98bf9abd6bbbf23eb990f2c44"
+    },
+    "jarvis/core/safety.py": {
+      "old": "838775a0dffeb7f6c9379df5bcc1f5f2a627c7de17dd25b8bf3ee3c4383dafe1",
+      "new": "5f6ce65662fdc419548811123da41cb298cff7493211d2e478ebd0b6a0e4371d"
+    },
+    "jarvis/i18n/__init__.py": {
+      "old": null,
+      "new": "cd1112daf872328a8f1694c0c4297726760e6b6dd4bf824142b75faefec78ec7"
+    },
+    "jarvis/i18n/locale.py": {
+      "old": null,
+      "new": "c51d8d35b8fb866469955aa2e8c6b9b38609c4bab50e0acbcb8381a935f5caf1"
+    },
+    "jarvis/integrations/__init__.py": {
+      "old": null,
+      "new": "110d793fd518f638a654e1ee170ee3b00cb363d0d63285055906cd8c0d9b9f93"
+    },
+    "jarvis/integrations/brain.py": {
+      "old": null,
+      "new": "03a29baba55872dd7086ba737b2f056204cfc450bd4348fd91143eb84ea87ad7"
+    },
+    "jarvis/integrations/diagnostics.py": {
+      "old": null,
+      "new": "ad5ea2bbc7355919889744d7c6ccc8ae471539a4fcf11874d511775f0815ed95"
+    },
+    "jarvis/integrations/gmail.py": {
+      "old": null,
+      "new": "565f40d102ba0335ed1fb0c4d94386e8c5cd1374a62a1734b0f08124cd7c8fb3"
+    },
+    "jarvis/integrations/music.py": {
+      "old": null,
+      "new": "92df4ee1a6078aa832a4d4ff4f3853672212f1d35164ae7a8378ba3b78a1113c"
+    },
+    "jarvis/integrations/phone.py": {
+      "old": null,
+      "new": "bf84f6996267807d3e47db410918cfcade374169f9316b73a968aab56f6ed917"
+    },
+    "jarvis/integrations/phone_protocol.py": {
+      "old": null,
+      "new": "29c49cdc8d1ae0fed69a477d1f354489f7f89ed3294f007f48937f14c2ac8839"
+    },
+    "jarvis/integrations/web.py": {
+      "old": null,
+      "new": "6ed9fc2ebeadb85f8e9316ac0a2c25d0a129a38cbda7c3f48daecf3fb857876e"
+    },
+    "jarvis/integrations/whatsapp.py": {
+      "old": null,
+      "new": "5ecd01b9bc6ac2c7120cb5b7e1a0d3df939aa1281e8131d8d3ee346d78927e5a"
+    },
+    "jarvis/integrations/windows_secrets.py": {
+      "old": null,
+      "new": "d076ca244fa7b485bab2a2af53298f16c0f6f8724f3137f27e7909411eba80e0"
+    },
+    "jarvis/logging_setup.py": {
+      "old": null,
+      "new": "91b181e5006a2f23e4beac4b004c728f910da60cb7899f74f9e0b3e5c50a18db"
+    },
+    "jarvis/maintenance/__init__.py": {
+      "old": null,
+      "new": "efbf77fdf6224e2e237965aca503598d8e90da438ddf2abab334892b62d9ccad"
+    },
+    "jarvis/maintenance/inventory.py": {
+      "old": null,
+      "new": "8e6a7a6f8dd412797a4020d7ee50f7096927ec6bc925bd76682208cb3af79dfe"
+    },
+    "jarvis/maintenance/uninstall.py": {
+      "old": null,
+      "new": "539e20fd7348c82efbb0fa6d6720d41aafa17d8d50758e441437238e4d9c3c48"
+    },
+    "jarvis/system/actions.py": {
+      "old": "ab0fde35b3fe195795cbe51e16fd00616a697ce15bc7e4e925db69f6b6309691",
+      "new": "e8c050e5703555291542fb062224c66dce9e8f54149b6e98db306430898a2627"
+    },
+    "jarvis/system/apps.py": {
+      "old": "ee53719eb305b669e3aa82d736f24fc0331f34a95072ef952eead5b9e118f2d9",
+      "new": "c1eb7908c7cc1a7bb99e547eecfca965d82be58c729776bf0595aef6e3b9aae1"
+    },
+    "jarvis/system/desktop.py": {
+      "old": null,
+      "new": "6e4a6d9291295a374fd741d993d2302623fb9dc470b0ef18b0830ec97e38d42d"
+    },
+    "jarvis/system/search.py": {
+      "old": "79eddf7353416045e9628fd399526affc0d22917e4175a2a0308b416778f4a6d",
+      "new": "d56e48fc21597c90951f7ae53cd6a8306414706cda4ebc32888b1fc145b908ef"
+    },
+    "jarvis/system/shortcuts.py": {
+      "old": null,
+      "new": "1286dfb960f9568c25efefd31cdcf88d3f48cbd83d96a093d96e8daced627997"
+    },
+    "jarvis/tasks/repository.py": {
+      "old": "4b76477056b0fb21feb22e24d19429862951373849608ff0a528138e85826b33",
+      "new": "3a47ec38f7bd91a74f2e9084549d45de5eba050f5084555633312ba9cf0fc92f"
+    },
+    "jarvis/tasks/scheduler.py": {
+      "old": "4c79f5bd37c98011f1495a52b9cadc3d4dc1e84a33c5294e75f5b52670592589",
+      "new": "221bc2bb521fd9acb9ec3cadb97c065bc3ea6393e024ca6f597bb829b70ae0fd"
+    },
+    "jarvis/tasks/service.py": {
+      "old": "fa55480abb14f3790691079ad9842acfd1230a2b2071ad45f87a391dd56a8471",
+      "new": "77ef6702fc1598483f7db3200d04dc4a8bfd06cac713d46aa8c1f6ecb64139b1"
+    },
+    "jarvis/ui/app.py": {
+      "old": "691bcc63d3348c669e2e6729a461cccbeeaaf73e32cae303ec092da01dfc3c43",
+      "new": "8feba8e8706f4cae5a38a15bb81589fcfff0f5718be4e06e33186332a4e3222b"
+    },
+    "jarvis/ui/backdrop.py": {
+      "old": null,
+      "new": "ec62907c23ea14dff69da90271eb7d960f05f8b966c28ad23e7902e92fa5cb0f"
+    },
+    "jarvis/ui/battle.py": {
+      "old": null,
+      "new": "1a7bd1de8d74743b22bac32666f9ec2ae1da378da56dc4170401ee8897e48795"
+    },
+    "jarvis/ui/hotkey.py": {
+      "old": null,
+      "new": "c28ceeed433ab86e5bbd039723e598d725dbcb01508b49578fcb5e8e4b6d3e5c"
+    },
+    "jarvis/ui/hud.py": {
+      "old": null,
+      "new": "4066ddf15c8695eb2d47380a764e216e8a96941e401f95b277e78e76c7b08296"
+    },
+    "jarvis/ui/integration_panels.py": {
+      "old": null,
+      "new": "3a8aed72cffc6b1d7d08c6ef361f1954ca2ed0eaaa1f51a904d8c26c52d3cfc3"
+    },
+    "jarvis/ui/model_dialog.py": {
+      "old": null,
+      "new": "198d19aed8fbd464edcd275b9a7287b7134b03b4af45c4b90e29166bab3f96e1"
+    },
+    "jarvis/ui/phone_panel.py": {
+      "old": null,
+      "new": "c64459c21e1e4b642c9a9389d8a51a44a70bb983f63ad345e825bf16d07a6a4e"
+    },
+    "jarvis/ui/task_panel.py": {
+      "old": null,
+      "new": "e191ca8ffdc2f977d455e5d5b38ba05721068eacfd887996fe3752bd09f67708"
+    },
+    "jarvis/ui/voice_controls.py": {
+      "old": null,
+      "new": "61c0eb38ebe01052f50be90b5890a3b257d6520b6bfcb541236e2b3da5e675bf"
+    },
+    "jarvis/ui/workflow_editor.py": {
+      "old": null,
+      "new": "9f59cf33ad71dc827ec640904ab76dad7f14a616ef801d559cdd33c86f03ceaa"
+    },
+    "jarvis/voice/__init__.py": {
+      "old": null,
+      "new": "ab878b30b9b6db019791162783c22b4289b5bd28d4cee85c71784537620d26b0"
+    },
+    "jarvis/voice/backends.py": {
+      "old": null,
+      "new": "0df0e80cce79c9c4ca7b1b06b25d19b4954198ce6756d33e41bfa96490ae1643"
+    },
+    "jarvis/voice/models.py": {
+      "old": null,
+      "new": "4c6e4a232c121f5d0df78d95b7fe927a4da11c88f9d05f359b52e8734872041e"
+    },
+    "jarvis/workflows/loader.py": {
+      "old": "48bb2c8730f0006566d3aefcc90965759ec5664ee15c511e5471d274139af204",
+      "new": "3eb0f65113cde72846bb51afb57ccfb2eb7acd94c316a35e523cdd803a90f1be"
+    },
+    "jarvis/workflows/runner.py": {
+      "old": "68fd0776088875d5f2c8c52da4096cb1fe5a9be9da0a60152362a1dfbe8db39a",
+      "new": "7e0a38f257febeb28aa54f4f17c234b2e21bdc793e82df2251f184c12a368e87"
+    },
+    "jarvis/workflows/service.py": {
+      "old": "84d1759184da477f3c598bf6159c0de065174e0b36b71e69701a6e3943e36a60",
+      "new": "e7b86b9466b5862adf9eea3eeade652d9d65b693ee516be176f444bc9947f4f2"
+    },
+    "jarvix-maintenance.exe": {
+      "old": null,
+      "new": "55c78c2a5d2be65a111373ad5658968b1c19e59a9805927bc6c0581b9c584da8"
+    },
+    "main.py": {
+      "old": "15f87b65895afaf86ccab0b059b3967704ab9ab10a0f9ec95aaacc0563f958aa",
+      "new": "0e200e5991a98afc2b328e6df9e69e71264249e22c7df6883c9cf8dc6584688e"
+    },
+    "requirements-dev.txt": {
+      "old": "b95d5804eee16cd9a07892dd3799500bb66dbff38138706a045f5da1d8d74efc",
+      "new": "543a97dbbb696f6cc90304e2b2a3140e70ec7bb2b9545949c612578e789e0b39"
+    },
+    "requirements-optional.txt": {
+      "old": "1ed7965a490ce7cab86e13fe2e161fa2c50415bc1ee92c1f798f968c711b563a",
+      "new": "d982fa4695576efe5ae4afe8cb9a56acd55f05a476e3e4dfcb8af3fed13153bb"
+    },
+    "requirements.txt": {
+      "old": "cde4478364048c74d809c4c64d256b656f43b5c98c120f568410dd5359811ee4",
+      "new": "3db7db0f689a6e40f8605414c2b9db93b19898bd99d4930a35c4045076ed3be4"
+    },
+    "scripts/Build-Android.ps1": {
+      "old": null,
+      "new": "7585202361b6602c0474e955ff674b4b91f862511824474767ddbb35c91bca4d"
+    },
+    "scripts/Build-Windows.ps1": {
+      "old": null,
+      "new": "a880a5f3883c49b6abbf5a0b6a523dc021bb29fb43c17dd7d9e10cffbd14cb21"
+    },
+    "scripts/Launcher.cs": {
+      "old": null,
+      "new": "69c7fb8f976d7ede888ec5fc67bdf516924d4c1b1148d6d7bc9168da8a6f0bc5"
+    },
+    "scripts/apply_update.py": {
+      "old": null,
+      "new": "8d4c6089232d35415b6e4f0da9ab0b60e526827d2ddb1b9b57408b35f7f7005c"
+    },
+    "scripts/finalize_uninstall.py": {
+      "old": null,
+      "new": "d29f44e0de5c766dac956322ffc4349efcf50323c3e73e8ca5c9f7d8ddbf8ff9"
+    },
+    "scripts/install.py": {
+      "old": null,
+      "new": "b331dbf526c6e00ffd9ae90401e3b962e59841f2a808d3dc59bfaddc813bf225"
+    },
+    "scripts/maintain.py": {
+      "old": null,
+      "new": "682b5f5c4128d7783a1cbc12ba62db483e8f738422734c665526479f3c7b2ac2"
+    },
+    "scripts/package.py": {
+      "old": null,
+      "new": "b0ac319d3da8c928f2020d392c44c4f115a84745700dc5c4624b52fa1aefcbfa"
+    },
+    "tests/test_apps.py": {
+      "old": "d7943b08c6527dc7ff504b13a43c55aa4dae2286bd077bc39a55d9ff5132a18b",
+      "new": "83132e95da17b5924b8b64dd0e4c7a85680acff2bb253cb3985dfb6517c7d125"
+    },
+    "tests/test_offline_models.py": {
+      "old": null,
+      "new": "c8de9ca3166f71a3f857c39c89a403eeaacf6ee391f60dc45bdacfc0b8d5d33d"
+    },
+    "tests/test_resume_features.py": {
+      "old": null,
+      "new": "5fd3364e6fe9cea4b9312be904cc3838f2c0507f06ac36e737ba9394335c337e"
+    },
+    "tests/test_workflows.py": {
+      "old": "b003c4c0197bffaba458fc278ebb1af8c71cb1387fcb5412f96cf2dc507a4ef2",
+      "new": "08c61007d984c9747b7a39d2afdfbe75e77ad33b05977c748fd6271d8eb760de"
+    }
+  }
+}
