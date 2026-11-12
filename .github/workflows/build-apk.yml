@@ -20,6 +20,12 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
+    - name: Setup Android SDK Environment
+      run: |
+        echo "ANDROID_HOME=C:\Users\Rithwik/android-sdk" >> 
+        echo "sdk.dir=C:\Users\Rithwik/android-sdk" > android/local.properties
+        mkdir -p C:\Users\Rithwik/android-sdk
+
     - name: Grant execute permission for gradlew
       run: |
         cd android
